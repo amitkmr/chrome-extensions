@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Toolbar on your homepage for easy navigation and fun.",
+  "version": "1.0",
+  "browser_action": {
+   "default_popup": "content.html"
+  },
+  "permissions": [
+    "tabs"
+],
+"content_scripts":[
+  {
+    "matches":["http://*/*","https://*/*"],
+    "css":["style.css"],
+    "js":["jquery.js","script.js"]
+  }
+],
+"web_accessible_resources":[
+  "toolbar.html",
+  "style.css"
+]
+}
