@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Twitter Social Kit",
+  "description": "Share selected text, url, image and other stuff on your twitter account.",
+  "version": "1.0",
+  "background" : {
+    "scripts":["background.js"]
+
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
