@@ -1,2 +1,2 @@
-#  Twitter Social Kit
-Share selected text, image, url and page with just a right click
+# Facebook Mobile View
+This extension loads mobile view of Facebook in a mobile size window separately. All with just a single click. You often feel hungry to quickly check your Facebook feed while working, then this is for you.
