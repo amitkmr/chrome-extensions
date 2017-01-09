@@ -12,8 +12,8 @@ chrome.browserAction.onClicked.addListener(function() {
               url : "https://m.facebook.com/",
               type:"popup",
               width:400,
-              height:800,
-              left:880,
+              height:screen.height,
+              left:screen.width-400,
             });
         }
       });
